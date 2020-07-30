@@ -1,0 +1,51 @@
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.table {
+  justify-self: center;
+  align-self: center;
+  border-collapse: collapse;
+}
+th,
+td,
+caption {
+  border: 1px solid gray;
+}
+
+.name {
+  text-transform: capitalize;
+}
+
+th {
+  padding: 5px 15px;
+}
+td {
+  padding: 5px 15px;
+}
+.title {
+  font-size: 24px;
+}
+.btnContainer {
+  justify-self: end;
+  align-self: flex-end;
+}
+.btn {
+  width: 150px;
+  height: 35px;
+  margin: 15px;
+  border-radius: 5px;
+  border: 0px;
+  color: white;
+  font-size: 16px;
+  background-color: rgb(84, 149, 247);
+  box-shadow: 0 0 10px rgb(173, 173, 173);
+}
+.btn:hover {
+  background-color: rgb(31, 117, 245);
+}
