@@ -2,7 +2,7 @@
   "name": "students-result-board",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://omkarkesarkhane.github.io/assignment",
+  "homepage": "http://omkarkesarkhane.github.io/Assignment",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
