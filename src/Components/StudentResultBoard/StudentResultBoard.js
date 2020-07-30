@@ -1,12 +1,10 @@
 import React, { useEffect, useState } from "react";
 import styles from "./StudentResultBoard.module.css";
 import api from "../../Api.json";
-import Axios from "axios";
 import { useHistory } from "react-router-dom";
 
 const StudentResultBoard = () => {
   const [data, setData] = useState([]);
-  const [studentPercentages, setStudentPercentages] = useState({});
 
   const history = useHistory();
 

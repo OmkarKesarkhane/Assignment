@@ -9,7 +9,6 @@ const AdmissionForm = () => {
   const [year, setYear] = useState();
   const [percentage, setPercentage] = useState();
   const [valid, setValid] = useState(false);
-  const [error, setError] = useState(false);
 
   const history = useHistory();
 
@@ -27,17 +26,13 @@ const AdmissionForm = () => {
         setValid(false);
       } else if (!(testName.test(lastname) && lastname.length < 20)) {
         setValid(false);
-        setError("Name should contain only");
       } else if (!testClass.test(clas)) {
         setValid(false);
-        setError("Name should contain only");
       } else if (year > 2017) {
         setValid(false);
-        setError("Name should contain only");
         console.log("year");
       } else {
         setValid(true);
-        setError("Name should contain only");
       }
     }
   }, [name, lastname, clas, percentage, year]);

@@ -1,7 +1,7 @@
 import React from "react";
 import StudentResultBoard from "./Components/StudentResultBoard/StudentResultBoard";
 import AdmissionForm from "./Components/AdmissionForm/AdmissionForm";
-import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
+import { Route, HashRouter as Router, Switch } from "react-router-dom";
 
 const App = () => {
   return (
